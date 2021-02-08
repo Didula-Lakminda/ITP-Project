@@ -1,0 +1,80 @@
+table{
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 60px;
+    padding: 8px;
+}
+tr:hover {
+    background: #F5F5F5;
+}
+form {
+	width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+}
+.input-group {
+    margin: 15px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+	font-size:16px;
+}
+.input-group input {
+    height: 30px;
+    width: 150%;
+    padding: 20px 15px;
+	font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btns {
+    padding: 10px;
+	width:100px;
+    font-size: 16px;
+    color: white;
+    background: #2f8ccc;
+    border: none;
+    border-radius: 5px;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+.edit_btn {
+    text-decoration: none;
+    padding: 10px 17px;
+    background: #22d1ee;
+    color: white;
+    border-radius: 3px;
+}
+
+.pdf_btn {
+    padding: 7px;
+	width:70px;
+    font-size: 16px;
+    color: white;
+    background: #2f8ccc;
+    border: none;
+    border-radius: 5px;
+}
+
+

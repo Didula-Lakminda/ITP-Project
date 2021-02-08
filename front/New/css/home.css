@@ -1,0 +1,365 @@
+/*header start*/
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.parallax {
+    background-image: url('../image/2.png');
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-title {
+    background: rgba(0, 0, 0, 0, 5);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
+    background: #184d47;
+    text-align: center;
+}
+
+.nav-ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.nav-ul li {
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px 25px 26px 25px;
+}
+
+.a-nav {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-ul li:hover {
+    background: #5b8c5a;
+    transform: scale(1.1);
+}
+
+.search-box {
+    border: 1px solid white;
+    border-radius: 50px;
+    background: white;
+    width: max-content;
+    display: inline-block;
+    margin: 8px;
+}
+
+.search-box:hover {
+    box-shadow: 0 0 10px 2px #5b8c5a;
+    border: 1px solid #5b8c5a;
+}
+
+.search-input {
+    width: 250px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    margin: 15px 0 0 10px;
+}
+
+i {
+    font-size: 20px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+
+/*header end*/
+
+
+/*top chat start*/
+
+.container {
+    margin: 50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+}
+
+.item {
+    width: max-content;
+    margin: 25px;
+    border: 1px solid #184d18;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+
+.item:hover {
+    box-shadow: 0 0 10px 3px #184d47;
+}
+
+.item-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 50px 50px;
+    padding: 10px;
+}
+
+.item-title {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*top chart end*/
+
+
+/*slide show start*/
+
+#slideimage {
+    margin-left: 10%;
+    width: 80%;
+    height: 600px;
+    border: 2px/*solid black*/
+    ;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*slid show end*/
+
+
+/*proms crat*/
+
+.title {
+    padding: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0, 5);
+}
+
+.prom {
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    max-width: 20%;
+    background: linear-gradient(120deg, #c26b24 20%, #cee397 50%, #b90e0e 80%);
+}
+
+.coupon-btn {
+    border: solid #141413;
+    color: #184d47;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.coupon-btn:hover {
+    box-shadow: 0 0 10px 5px white inset;
+}
+
+
+/*pizza chart*/
+
+.cart-btn {
+    border: solid #141413;
+    color: #184d47;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.cart-btn:hover {
+    box-shadow: 0 0 10px 5px blueviolet inset;
+}
+
+.Order-btn {
+    border: solid #141413;
+    color: #184d47;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.Order-btn:hover {
+    box-shadow: 0 0 10px 5px blueviolet inset;
+}
+
+.chart {
+    width: max-content;
+    margin: 25px;
+    border: 1px solid #184d18;
+    border-radius: 10px 10px 0 0;
+    display: inline-block;
+}
+
+.chart:hover {
+    box-shadow: 0 0 10px 3px #184d47;
+}
+
+
+/*---------------------footer------------*/
+
+#footer-followus {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+#foot-follow {
+    font-family: Leelawadee;
+    color: green;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0px;
+    letter-spacing: 25px;
+}
+
+
+/*foot-at{
+	font-family:Leelawadee;
+	color:white;
+	text-align:center;
+	font-size:30px;
+	margin-top:-80px;
+}*/
+
+#foot-ssites {
+    /*list-style-type:none;*/
+    padding: 1px;
+    background-color: ;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*#flink{
+	flex:space-around;
+	text-decoration:none;
+}*/
+
+#fp {
+    /*font-size:10px;
+	font-family:Leelawadee;
+	color:green;
+	text-align:center;
+	border:1px solid #290326;
+	text-decoration:none;
+	padding:8px;*/
+    color: #820101;
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transform: scale(3);
+}
+
+#fp:hover {
+    transform: translateY(-8px);
+    transform: scale(5);
+    /*background-color:#036b64/*#13174a*/
+    ;
+    /*color:white/*#800082*/
+    ;
+    /*border:1px solid white;*/
+}
+
+#footer-contactus {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+#foot-follow-q {
+    font-family: Leelawadee;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0px;
+    letter-spacing: 17px;
+}
+
+#pnumber {
+    font-size: 20px;
+    font-family: Leelawadee;
+    color: white;
+    text-align: right;
+    margin-top: -50px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+#footer-q {
+    display: flex;
+    justify-content: center;
+}
+
+#pnumber-1 {
+    font-size: 10px;
+    font-family: Leelawadee;
+    color: white;
+    text-align: center;
+    margin-top: -50px;
+    text-decoration: none;
+    padding: 13px;
+    letter-spacing: 5px;
+}
+
+#pnumber-2 {
+    font-size: 15px;
+    font-family: Leelawadee;
+    color: black;
+    text-align: center;
+    margin-bottom: 0px;
+    text-decoration: none;
+    padding: 13px;
+    letter-spacing: 5px;
+}
+
+#shoppingcart {
+    float: right;
+    width: 150px;
+    height: 150px;
+    margin-left: 200px;
+    transform: scale(0.90);
+    border-style: solid;
+    border-width: 2px;
+    border-color: white/*#990099*/
+    ;
+    border-radius: 50%;
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+#shoppingcart:hover {
+    transform: scale(0.75);
+    border-color: red;
+}

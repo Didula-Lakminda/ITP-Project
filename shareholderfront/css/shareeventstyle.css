@@ -1,0 +1,24 @@
+@media (min-width:992px) {    
+  .vertical-nav {
+      position: fixed;
+      top: 56px;
+      left: 0;
+      width: 200px;
+      height: 100%;
+      background-color: lightgreen;
+      overflow-y: auto;
+      padding-top: 30px
+    }
+}
+
+.padd {
+	padding-left:300px;
+}
+.nav-link{
+	border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
+}
+
